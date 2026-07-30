@@ -240,6 +240,8 @@ Error message and password prompt
 
 <li>Kalender</li>
 
+<li>Nieuwe tiddler</li>
+
 <li>TableOfContents</li>
 
 </ul>
@@ -286,7 +288,7 @@ Error message and password prompt
 {"created":"20260728211912607","title":"$:/state/tab-1163638994","text":"$:/core/ui/MoreSideBar/Plugins/Languages","modified":"20260728215010173"},
 {"created":"20260728154618272","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Info","modified":"20260728220418248"},
 {"created":"20260728220238488","title":"$:/state/tab-755303773","text":"$:/core/ui/ControlPanel/Plugins/Add/Languages","modified":"20260728220238488"},
-{"created":"20260728211903900","title":"$:/state/tab/moresidebar-1850697562","text":"$:/core/ui/MoreSideBar/All","modified":"20260728220625100"},
+{"created":"20260728211903900","title":"$:/state/tab/moresidebar-1850697562","text":"$:/core/ui/MoreSideBar/Plugins","modified":"20260730113223999"},
 {"created":"20260728211857979","title":"$:/state/tab/sidebar--595412856","text":"$:/core/ui/SideBar/More","modified":"20260728220614339"},
 {"title":"$:/status/RequireReloadDueToPluginChange","text":"no"},
 {"title":"$:/StoryList","created":"20260730112817845","text":"","list":"TableOfContents Kalender [[30 juli]]","modified":"20260730112820536"},
@@ -302,6 +304,7 @@ Error message and password prompt
 {"created":"20260728154645636","text":"","tags":"","title":"Eerste kaart","modified":"20260728154654166"},
 {"created":"20260728212523234","text":"","tags":"TableOfContents","title":"Favorieten","modified":"20260728212555225"},
 {"created":"20260728212819896","text":"Kies datum: \u003C$edit-date/>\n\n\u003C$button> \n\u003C$action-createtiddler $basetitle={{{ [{!!created}parsedate[DDD DD MMM YYYY]] }}} tags={{{ [{!!created}parsedate[YYYY]] }}} tocnr={{{ [{!!created}parsedate[DYYYY0MM0DD]] }}}/>\u003C$action-navigate $to={{{ [{!!created}parsedate[DDD DD MMM YYYY]] }}}/> Dagboek\u003C/$button>\n\n\u003C$button>\n\u003C$action-createtiddler $basetitle={{{ [{!!created}parsedate[DD MMM]] }}}tags={{{ [{!!created}parsedate[MMM]] }}} text={{$:/config/NewJournal/Text}} jarig={{{  \"{{Verjaardagen##\" [{!!created}parsedate[0MM0DD]] \"}}\"+[join[]] }}} agenda={{{ \"{{Agenda##\" [{!!created}parsedate[0MM0DD]] \"}}\"+[join[]] }}} tocnr={{{ \"J\" [{!!created}parsedate[0MM0DD]] +[join[]] }}} citaat={{{ \"☀️ [[\" [tag[quote]shuffle\u003Cnow>limit[1]] \"]]\" +[join[]] }}} alias={{{ [{!!created}parsedate[DDD DD MMM YYYY]] }}}/>\u003C$action-navigate $to={{{ [{!!created}parsedate[DD MMM]] }}}/> Journaal\u003C/$button>\n","tags":"TableOfContents","title":"Kalender","modified":"20260728214408321","type":"text/vnd.tiddlywiki","tocnr":"01 Kalender"},
+{"created":"20260730113117883","tags":"","text":"@@color: #8be9fd;\n⛅ , °\u003Cbr>\n{{!!jarig}}\n{{!!citaat}}\u003Cbr>\n{{!!agenda}}\n\u003C$details summary=\"Te doen\" class=\"blgr\" open=\"no\">\n\u003C\u003Ctodolist-ui caption:\" \" width:80% base:\"mijntodos\">>\n\u003C/$details>\n\u003C$macrocall $name=interstitial-ui caption=\" \" width=\"\" base=\"$(currentTiddler)$\"/>","jarig":"{{Verjaardagen##}}","agenda":"{{Agenda##}}","tocnr":"J","citaat":"☀️ [[]]","alias":"","modified":"20260730113117883","title":"Nieuwe tiddler"},
 {"created":"20260728212401418","text":"\u003Cdiv class=\"tc-table-of-contents\">\n\u003C\u003Ctoc-selective-expandable \"TableOfContents\">>\n\u003C/div>\n","tags":"","title":"TableOfContents","modified":"20260728212502402"}
 ]</script><div id="storeArea" style="display:none;"></div>
 <!--~~ Library modules ~~-->
